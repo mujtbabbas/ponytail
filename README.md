@@ -54,6 +54,20 @@
   <a href="https://ponytail.dev/soon"><img src="assets/waitlist-banner.png" alt="Something's coming, join the waitlist" width="760"></a>
 </p>
 
+## About This Standalone Edition
+
+- **Main repository:** [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
+- **Based on version:** upstream release `v5.3.2` (snapshot commit `09c434ab73ca43761c5d8b0c5d341926c2fba710`, snapshotted 2026-10-20; upstream HEAD dated 2026-10-18)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions and npm dependency updates (upstream ships neither Dependabot nor a lockfile-driven CI; its package.json carries the Node test tooling)
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the documentation (upstream test.yml / publish.yml workflows, which run the real Node test suite, kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to Dietrich Gebert and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (MIT License). This edition adds the enhancements listed above only.
+
 ## Already built with Ponytail
 
 <a href="https://theretriever.app">
