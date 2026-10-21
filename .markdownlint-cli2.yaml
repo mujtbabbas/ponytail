@@ -1,0 +1,7 @@
+ignores:
+  - "*/**/*.md"
+  - ".github/**/*.md"
+  - "AGENTS.md"
+  - "INSTALL.md"
+  - "README.md"
+  - "after-install.md"
